@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexia Babyfoot Pro</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f8f8f8;
+            color: #333;
+        }
+        header {
+            background-color: #000;
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            margin-top: 10px;
+            font-size: 1.2em;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        h2 {
+            color: #000;
+        }
+        .cta {
+            background: #000;
+            color: #fff;
+            padding: 15px 25px;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .socials {
+            margin-top: 20px;
+        }
+        .socials a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            max-width: 500px;
+            margin-top: 20px;
+        }
+        input, textarea {
+            padding: 10px;
+            font-size: 1em;
+            width: 100%;
+        }
+        button {
+            padding: 10px;
+            font-size: 1em;
+            background: #000;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        footer {
+            background: #000;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Alexia Babyfoot Pro</h1>
+    <p>Joueuse professionnelle de baby-foot - Tournois, Cours & Événements</p>
+</header>
+
+<section>
+    <h2>Organisez un événement inoubliable autour du baby-foot</h2>
+    <p>Vous êtes une entreprise, une école ou un particulier ? Je vous propose d'animer vos événements avec des tournois de baby-foot dynamiques, funs et accessibles à tous. Envie d'apprendre à jouer ou de vous perfectionner ? Réservez un cours particulier ou en groupe avec moi !</p>
+    
+    <a href="#contact" class="cta">Réserver une prestation</a>
+
+    <div class="socials">
+        <h3>Suivez-moi :</h3>
+        <a href="https://www.instagram.com/a.depagne" target="_blank">Instagram</a>
+        <a href="https://www.tiktok.com/@a.depagne" target="_blank">TikTok</a>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contactez-moi</h2>
+    <p>Remplissez le formulaire ci-dessous pour réserver une animation ou un cours :</p>
+    <form name="contact" method="POST" data-netlify="true">
+        <input type="text" name="nom" placeholder="Votre nom" required>
+        <input type="email" name="email" placeholder="Votre email" required>
+        <textarea name="message" rows="5" placeholder="Votre message" required></textarea>
+        <button type="submit">Envoyer</button>
+    </form>
+</section>
+
+<footer>
+    &copy; 2025 Alexia Depagne - Tous droits réservés
+</footer>
+
+</body>
+</html>
