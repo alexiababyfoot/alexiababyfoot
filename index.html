@@ -159,7 +159,8 @@
     <h2>Contact</h2>
     <p>Fill in the form below to request a quote or book a session. I’ll get back to you shortly:</p>
 
-    <form action="https://formspree.io/f/mqalagao" method="POST">
+    <form action="https://formspree.io/f/mqalagao" method="POST" onsubmit="location.href='thankyou.html'; return false;">
+ method="POST">
       <input type="text" name="name" placeholder="Your Name" required>
       <input type="email" name="email" placeholder="Your Email Address" required>
       <textarea name="message" rows="5" placeholder="Describe your request (type of event, date, location...)" required></textarea>
